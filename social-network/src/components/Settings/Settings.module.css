@@ -1,0 +1,61 @@
+.settings {
+    margin: 20px;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.colorsContainers {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.black {
+    background-image: linear-gradient(45deg, black, #363636);
+}
+
+.red {
+    background-image: linear-gradient(45deg, red, #f1bfbf);
+}
+
+.blue {
+    background-image: linear-gradient(45deg, blue, #a9b4d9);
+}
+
+.gray {
+    background-image: linear-gradient(45deg, #A8B0BB, #ffffff);
+}
+
+.orange {
+    background-image: linear-gradient(45deg, #ff8c00, #e8cdb8);
+}
+
+.green {
+    background-image: linear-gradient(45deg, green, #bad5a1);
+}
+
+.purple {
+    background-image: linear-gradient(45deg, purple, #fa72e5);
+}
+
+.brown {
+    background-image: linear-gradient(45deg, brown, #b35353);
+}
+
+.pink {
+    background-image: linear-gradient(45deg, #dc94a3, #e5b1bf);
+}

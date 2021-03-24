@@ -1,0 +1,76 @@
+.content {
+    margin: 10px;
+    padding: 10px;
+}
+
+.whatNew {
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.newsContainer {
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 black;
+    margin: 20px;
+    padding: 10px;
+    background-color: #7f7f7f;
+}
+
+.header {
+    display: flex;
+    width: 200px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.usersAndHeaders {
+    display: flex;
+    width: 550px;
+}
+
+.user {
+    font-weight: 900;
+}
+
+.userPhoto {
+    width: 50px;
+    border-radius: 25px;
+
+}
+
+.postName {
+    margin-left: 150px;
+    font-weight: 500;
+    color: #3a3ace;
+    width: 250px;
+}
+
+.postTime {
+    color: #d9d2d2;
+    font-size: 14px;
+}
+
+.postContent {
+    margin: 10px 0 30px 100px;
+}
+
+.postImg {
+    width: 500px;
+}
+
+.heart {
+    height: 20px;
+}
+
+.likes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

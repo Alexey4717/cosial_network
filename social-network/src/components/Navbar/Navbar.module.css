@@ -1,0 +1,21 @@
+.nav {
+    grid-area: n;
+    padding: 20px;
+    /*z-index: -1;*/
+}
+
+.nav_items {
+    float: right;
+    margin: 50px 10px 0 0;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.item a.active {
+    color: gold;
+}
+

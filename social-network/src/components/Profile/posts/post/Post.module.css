@@ -1,0 +1,32 @@
+.item {
+    display: flex;
+    margin-bottom: 15px;
+    color: green;
+    background-color: #c2bcbc;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 black;
+}
+
+.like {
+    height: 10px;
+}
+
+.postImg {
+    height: 60px;
+    border-radius: 15px;
+}
+
+.message {
+    margin: 10px 0 0 10px;
+    width: 400px;
+    min-height: 60px;
+}
+
+.likes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heart {
+    height: 20px;
+}

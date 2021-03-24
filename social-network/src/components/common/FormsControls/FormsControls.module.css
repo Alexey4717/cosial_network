@@ -1,0 +1,30 @@
+.formControl.error input,
+.formControl.error textarea
+{
+    border: 3px solid red;
+}
+
+.formControl.error span
+{
+    color: red;
+}
+
+.formSummaryError {
+    width: 150px;
+    border: red 3px solid;
+    padding: 5px;
+    color: red;
+}
+
+.setButton {
+    float: right;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fields {
+    width: 335px;
+}

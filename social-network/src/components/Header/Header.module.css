@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    width: 100%;
+    grid-area: h;
+    background-image: url('../../assets/images/old_city_panoram.jpg');
+    background-size: 150px;
+    background-repeat: repeat-x;
+    height: 60px;
+    box-shadow: 0px 0px 20px 0px black;
+    border-radius: 0 0 50px 50px;
+}
+
+.headerImg {
+    margin: 5px 0 0 65px;
+    height: 100px;
+    z-index: 10;
+    clip-path: polygon(100% 0, 100% 78%, 50% 100%, 0 78%, 0 0);
+}
+
+.loginBlock {
+    float: right;
+    height: 35px;
+    width: 120px;
+    margin: 4px 80px 0 0;
+}
+
+.isLoginBlock {
+    display: flex;
+    padding: 2px 2px 0 2px;
+    justify-content: space-between;
+    background-color: #cdc7c7;
+    border: 3px gray solid;
+    border-radius: 15px;
+}
+
+.loginName {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.userPhoto {
+    height: 40px;
+    border-radius: 25px;
+}
+
+.loginButton {
+    margin: 0;
+    padding: 1px 2px;
+    font-family: 'Roboto', sans-serif;
+}
